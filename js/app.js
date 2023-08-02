@@ -35,15 +35,6 @@ const finder = async (data, year = "", type = "") => {
   return result;
 };
 
-const reader = async (data) => {
-  header.classList.add("hidden");
-  main.classList.add("hidden");
-  const query = "https://www.omdbapi.com/?apikey=";
-  const ggle = `${KEY}&i=${data.imdbID}`;
-  const req = await fetch(query + ggle);
-  const result = await JSON.parse(req);
-  return result;
-};
 const updateUI = (smth) => {
   ul.innerHTML += `
         <li class="updated">
