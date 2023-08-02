@@ -5,8 +5,6 @@ const modal = document.querySelector(".modal");
 const header = document.querySelector(".header__container");
 const main = document.querySelector(".main__container");
 
-console;
-
 const KEY = "263d22d8";
 const ul = document.querySelector("ul");
 
