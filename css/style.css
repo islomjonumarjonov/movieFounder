@@ -192,6 +192,14 @@ input {
   display: none;
 }
 
+.search-icon {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.search-icon:hover {
+  opacity: 0.8;
+}
+
 h1 {
   color: var(--site-color);
 }
